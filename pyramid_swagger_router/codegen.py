@@ -4,7 +4,7 @@ import logging
 import os.path
 from collections import OrderedDict
 from prestring.python import Module
-from prestring import LazyKeywordsRepr, LazyFormat
+from prestring.utils import LazyKeywordsRepr, LazyFormat
 from prestring.output import File
 from .asthandler import ViewsModifier, RoutesModifier
 
